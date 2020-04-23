@@ -1,0 +1,10 @@
+pipeline{
+	agent any{
+		stages('build'){
+			steps{
+				sh "echo wlcm"
+			}
+		}
+	}
+}
+
